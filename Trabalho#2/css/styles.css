@@ -1,8 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
 .header-container {
     position: sticky;
     display: flex;
     background-color: #4d8fa8;
+    width: 100%;
+    align-items: center
 }
 
 .logo {
@@ -17,7 +24,9 @@
 
 .links {
     margin: 17px;
-    margin-left: auto;
+    text-align: right;
+    width: 15000px;
+    box-sizing: border-box;
 }
 
 .link-container {
@@ -38,7 +47,6 @@
 
 .imagens {
     text-align: center; 
-    font-size: 0; 
 }
 
 .imagens img {
